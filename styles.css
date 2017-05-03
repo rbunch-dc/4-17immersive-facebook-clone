@@ -1,0 +1,19 @@
+#facebook-wrapper{
+	/* Main page styles here */
+}
+
+#header{
+	/* Facebook blue... */
+	background-color: #3B5998
+}
+
+#header-inner{
+	max-width: 900px;
+	margin: auto;
+	overflow: hidden;
+}
+
+#fb-logo,#fb-search{
+	float: left;
+	margin-left: 10px;
+}
