@@ -81,6 +81,8 @@
 #middle{
 	width: 50%;
 	float: left;
+	border-left: 1px #cacaca solid;
+	border-right: 1px #cacaca solid;
 }
 #right{
 	width: 25%;
@@ -89,4 +91,25 @@
 
 .left-profile .left-profile-name{
 	vertical-align: top;
+}
+
+.favorites-header{
+	margin-left: 1em;
+}
+
+.favorites-item{
+	margin-left: 15px;
+}
+
+.status-header .status-item{
+	float: left;
+	margin-left: 10px;
+}
+
+.status-wrapper input{
+	width: 100%;
+}
+
+.status-header{
+	border-bottom: 1px #cacaca solid;
 }
