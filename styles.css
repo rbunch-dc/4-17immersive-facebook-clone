@@ -4,7 +4,8 @@
 
 #header{
 	/* Facebook blue... */
-	background-color: #3B5998
+	background-color: #3B5998;
+	height: 30px;
 }
 
 #header-inner{
@@ -16,4 +17,76 @@
 #fb-logo,#fb-search{
 	float: left;
 	margin-left: 10px;
+}
+
+#fb-logo{
+	height: 24px;
+	width: 24px;
+	background-image: url('https://www.facebook.com/rsrc.php/v3/yu/r/UnZEsNz1oHl.png');
+	background-position: 0px -17px;	
+}
+
+#fb-search input{
+	width: 350px;
+	height: 20px;
+}
+
+#right-header{
+	float: right;
+}
+
+.fb-icons{
+	float: left;
+	color: #fff;
+	font-size: 12px;
+	line-height: 30px;
+	height: 24px;
+	min-width: 24px;
+	margin-left: 10px;
+}
+
+.fb-icons.friends, .fb-icons.messages, .fb-icons.notifications{
+	background-image: url('https://www.facebook.com/rsrc.php/v3/yU/r/ujRgtpgUFf7.png')
+}
+
+.fb-icons.friends{
+	background-position: 0px -11px;
+}
+
+.fb-icons.messages{
+	background-position: 0px -11px;
+}
+
+.fb-icons.notifications{
+	background-position: 0px -11px;
+}
+
+#home-updates .new-feeds{
+	background: rgba(0,0,0,.25);
+	border-radius: 2px;
+	font-size: 10px;
+}
+
+#content{
+	/* Must have overflow: hidden so that the floated children pass their height up */
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+#left{
+	width: 20%;
+	float: left;
+	margin-left: 15px;
+}
+#middle{
+	width: 50%;
+	float: left;
+}
+#right{
+	width: 25%;
+	float: right;
+}
+
+.left-profile .left-profile-name{
+	vertical-align: top;
 }
