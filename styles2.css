@@ -1,0 +1,321 @@
+img{
+	max-width: 100%;
+}
+
+#facebook-wrapper{
+	/* whole page styles */
+	background-color: #e9ebee !important;
+}
+
+#header{
+	background-color: #3b5998;
+	overflow: hidden;
+	width: 100%;
+	font-family: apple system, BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+	line-height: 42px;
+	height: 42px;
+}
+
+#header-inner{
+	max-width: 900px;
+	margin: auto;
+}
+
+#left-header{
+
+}
+
+#right-header{
+	float: right;
+	font-size: 12px;
+}
+
+#right-header div{
+	float: left;
+}
+
+#small-avatar{
+	height: 24px;
+	width: 24px;
+	margin: 2px;
+	border-radius: 2px;
+}
+
+#avatar-name {
+	color: #fff;
+	margin: -6px 2px 0 10px;
+}
+
+#profile-select {
+	height: 29px;
+	width: 70px;
+	border-radius: 2px;
+	position: relative;
+	margin-top: 6px;
+	margin-right: -10px;
+	padding-right: 15px;
+}
+
+#profile-select:hover{
+	background-color: #29487d;
+}
+
+#home-link a{
+	color: #fff;
+	text-decoration: none;
+}
+
+#home-link{
+	margin-top: -6px;
+}
+
+#home-select{
+	height: 29px;
+	width: 45px;
+	border-radius: 2px;
+	position: relative;
+	margin: 6px 0 0 -10px;
+	margin-right: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#home-select:hover{
+	background-color: #29487d;
+}
+
+#fb-logo{
+	height: 24px;
+	width: 24px;
+	background-image: url('fb_sprite.png');
+	background-size: 26px 905px;
+	background-position: 0 -163px;
+	margin: 8px 0;
+}
+
+#fb-logo, #fb-search, #fb-search-button{
+	float: left;
+	margin-left: 10px;
+}
+
+#fb-search input{
+	border-radius: 2px 0 0 2px;
+	width: 400px;
+	height: 20px;
+	font-size: 14px;
+	line-height: 18px;
+	border: none;
+}
+
+#fb-search{
+	margin-top: -1px;
+}
+
+#fb-search-button-box{
+	float:left;
+	height: 20px;
+	width: 40px;
+	border: 1px solid #f6f7f9;
+	border-radius: 0 2px 2px 0;
+	background-color: #eee;
+	margin-top: 10px;
+
+}
+
+#fb-search-button-box:hover {
+	background-color: #ddd;
+	border: 1px solid #ddd;
+}
+
+#fb-search-button{
+	height: 16px;
+	width: 16px;
+	background-image: url('fb_sprite2.png');
+	background-size: 82px 241px;
+    background-position: -54px -207px;
+    margin: 2px 0 0 12px;
+}
+
+/* this is a catch-all for the social icons */
+.social-icon{
+	height: 24px;
+	width: 24px;
+	background-image: url('fb_sprite.png');
+	background-size: 26px 905px;
+	margin-left: 5px;
+	margin-top: 8px;
+	opacity: .6;
+}
+
+.social-icon:hover{
+	opacity: 1;
+}
+/* specifically for the friends div */
+.friends{
+	background-position: 0 -188px;
+}
+/* specifically for the messages div */
+.messages{
+	background-position: 0 -338px;
+}
+/* specifically for the notifications div */
+.notifications{
+	background-position: 0 -238px;
+}
+
+.spacer{
+	line-height: 24px;
+	margin: 8px 10px 0;
+	color: rgba(0, 0, 0, .1);
+	font-size: 18px;
+}
+
+.lock{
+	background-position: 0 -859px;
+	height: 16px;
+	margin-left: 10px;
+	margin-top: 12px;
+}
+
+.down-arrow{
+	background-position: 0 -825px;
+	height: 16px;
+	margin-left: 10px;
+	margin-top: 12px;
+}
+
+#top-page-wrapper{
+	max-width: 900px;
+	margin: auto;
+	width: 100%;
+	height: 372px;
+	border: 1px solid #D3D6DB;
+	background-color: #fff;
+}
+
+#cover-photo-wrapper{
+	max-width: 900px;
+	margin: auto;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+#cover-photo-lower{
+	max-width: 900px;
+	margin: 20px auto 0;
+	width: 100%;
+	padding: 0 20px;
+	box-sizing: border-box;
+	z-index: 2;
+}
+
+#big-photo{
+	max-height: 350px;
+	overflow: hidden;
+	position:  relative;
+	z-index: 1;
+}
+
+#big-photo img{
+	width: 100%;
+	z-index: 1;
+}
+
+#big-avatar{
+	float: left;
+	height: 150px;
+	margin-top: -20px;
+}
+
+#big-avatar img{
+	width: 150px;
+	margin-top: -400px;
+	position: relative;
+	z-index: 2;
+	padding: 4px;
+	border: 1px solid #D3D6DB;
+	background-color: #fff;
+}
+
+#cover-photo-right #avatar-name{
+	float: left;
+	font-size: 30px;
+	color: #fafafa;
+	font-family: apple system, BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+	z-index: 2;
+	position: relative;
+	margin: -60px 0 0 20px;
+}
+
+#cover-buttons{
+	float: right;
+	position: relative;
+	z-index: 2;
+	margin-top: -70px;
+}
+
+#cover-buttons button{
+	padding: 7px;
+	font-weight: 900;
+	color: #757575;
+	background-color: #f6f6f6;
+	border: none;
+	margin-left: 20px;
+	margin-right: 0px;
+	line-height: 12px;
+}
+
+#cover-buttons button:hover{
+	background-color: #dedede;
+}
+
+#cover-buttons button:last-child{
+	margin-left: -3px;
+	line-height: 2px;
+	padding: 12px 12px 12px;
+
+}
+
+#red-notification{
+	background-color: red;
+	padding: 1px 2px;
+	border-radius: 2px;
+	color: #fff;
+	margin-left: 3px;
+}
+
+#blue-notification{
+	background-color: #334e84;
+	padding: 1px 2px;
+	border-radius: 2px;
+	color: #fff;
+	margin-left: 4px;
+	margin-right: 15px;
+}
+
+#cover-menu{
+	float: left;
+	position: relative;
+	margin-left: 20px;
+}
+
+.cover-menu-item{
+	float: left;
+	position: relative;
+	list-style-type: none;
+	margin: -28px -0.5px 0px;
+	border: 1px solid #D3D6DB;
+	padding: 12px 14px;
+	font-size: 14px;
+	font-family: apple system, BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+	color: #365899;
+	font-weight: 600;
+	line-height: 18px;
+}
+
+.cover-menu-item:hover{
+	background-color: #f0f0f0;
+}
+
+
+
